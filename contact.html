@@ -14,31 +14,11 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Jost:wght@300;400;500&family=Amiri:ital,wght@0,400;0,700;1,400&family=Tajawal:wght@300;400;500;700&display=swap"
     rel="stylesheet" />
 
-  <title>Make Hek Dresses · فساتين سهرة فاخرة في دمشق</title>
+  <title>تواصلي معنا · Make Hek Dresses</title>
   <script type="module" crossorigin src="./assets/main-_kzD5u_u.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/main-n8vAWsmx.css">
 </head>
-<body data-page="home">
-<!-- Intro: the logo writes itself (on every page load) -->
-<div class="intro" id="intro" aria-hidden="true">
-  <div class="intro__petals"></div>
-  <div class="intro__stage">
-    <div class="intro__orn intro__orn--start"></div>
-    <div class="intro__center">
-      <div class="intro__art"></div>
-      <p class="intro__tag"></p>
-    </div>
-    <div class="intro__orn intro__orn--end"></div>
-  </div>
-  <span class="intro__pen"></span>
-  <button class="intro__skip" type="button"></button>
-</div>
-<script>
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.getElementById('intro').remove();
-  }
-</script>
-
+<body data-page="contact">
 <!-- Announcement -->
 <div class="announce" aria-label="announcements">
   <div class="announce__track">
@@ -93,121 +73,63 @@
 
 
 <main>
-  <!-- Hero -->
-  <section class="hero">
-    <div class="sparkles" aria-hidden="true"></div>
-    <div class="container hero__inner">
-      <div class="hero__copy">
-        <p class="eyebrow" data-i18n="heroEyebrow"></p>
-        <h1 class="hero__title">
-          <span data-i18n="heroTitle1"></span>
-          <em class="script" data-i18n="heroTitle2"></em>
-        </h1>
-        <p class="hero__lead" data-i18n="heroLead"></p>
-        <div class="hero__cta">
-          <a href="./shop.html" class="btn btn--primary" data-i18n="heroCta1"></a>
-          <a href="./contact.html" class="btn btn--ghost" data-i18n="heroCta2"></a>
-        </div>
-        <ul class="hero__stats">
-          <li><strong>43.1K</strong><span data-i18n="statFollowers"></span></li>
-          <li><strong data-i18n="statFirstWearVal"></strong><span data-i18n="statFirstWear"></span></li>
-          <li><strong data-i18n="statModesVal"></strong><span data-i18n="statModes"></span></li>
+  <section class="page-hero">
+    <div class="page-hero__deco" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="container">
+      <nav class="crumbs" aria-label="breadcrumb"><a href="./" data-i18n="navHome"></a><i>›</i><span data-i18n="navContact"></span></nav>
+      <p class="eyebrow" data-i18n="visitEyebrow"></p>
+      <h1 class="page-hero__title" data-i18n="contactTitle"></h1>
+      <p class="page-hero__lead" data-i18n="contactLead"></p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container contact">
+      <div class="contact__info">
+        <div class="visit__card">
+          <h2 class="section__title" data-i18n="visitTitle"></h2>
+        <ul class="visit__list">
+          <li>
+            <svg viewBox="0 0 24 24" class="ic"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span data-i18n="address"></span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" class="ic"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <span data-i18n="hours"></span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" class="ic"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+            <a href="tel:+963944084832" dir="ltr">+963 944 084 832</a>
+          </li>
         </ul>
-      </div>
-
-      <div class="hero__art" id="heroArt">
-        <figure class="arch arch--lg"><img alt="" data-hero="0" /></figure>
-        <figure class="arch arch--sm arch--a"><img alt="" data-hero="1" /></figure>
-        <figure class="arch arch--sm arch--b"><img alt="" data-hero="2" /></figure>
-        <div class="hero__seal">
-          <img src="./logo-mark.svg" alt="" />
-          <svg viewBox="0 0 120 120" class="seal-text"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text><textPath href="#circ">MAKE HEK DRESSES ✦ DAMASCUS ✦ LUXURY ✦ </textPath></text></svg>
+          <div class="hero__cta">
+            <a class="btn btn--ghost" target="_blank" rel="noopener" href="https://maps.google.com/?q=Malki+Albezem+Avenue+Damascus" data-i18n="directions"></a>
+            <a class="btn btn--ghost" target="_blank" rel="noopener" href="https://www.instagram.com/makehek_dresses/">Instagram</a>
+          </div>
+        </div>
+        <div class="visit__map">
+          <iframe title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=Al+Malki+Damascus+Syria&z=15&output=embed"></iframe>
         </div>
       </div>
-    </div>
-  </section>
-
-  <div class="ribbon" aria-hidden="true">
-    <div class="ribbon__track" id="ribbon"></div>
-  </div>
-
-  <section class="section">
-    <div class="container">
-      <header class="section__head">
-        <p class="eyebrow" data-i18n="colEyebrow"></p>
-        <h2 class="section__title" data-i18n="colTitle"></h2>
-      </header>
-      <div class="collections" id="collectionsGrid"></div>
-      <div class="center"><a class="btn btn--ghost" href="./collections.html" data-i18n="seeCollections"></a></div>
-    </div>
-  </section>
-
-  <section class="section section--blush">
-    <div class="container">
-      <header class="section__head">
-        <p class="eyebrow" data-i18n="featEyebrow"></p>
-        <h2 class="section__title" data-i18n="featTitle"></h2>
-      </header>
-      <div class="grid" id="featuredGrid"></div>
-      <div class="center"><a class="btn btn--primary" href="./shop.html" data-i18n="seeAll"></a></div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <a class="promo reveal" href="./showroom.html">
-        <div class="promo__copy">
-          <p class="eyebrow">360°</p>
-          <h2 class="section__title" data-i18n="showTitle"></h2>
-          <p class="section__lead" data-i18n="showLead"></p>
-          <span class="btn btn--primary" data-i18n="enterShowroom"></span>
-        </div>
-        <div class="promo__art" aria-hidden="true">
-          <svg viewBox="0 0 200 200" class="promo__ring"><defs><path id="ring" d="M100 100m-80 0a80 80 0 1 1 160 0a80 80 0 1 1-160 0"/></defs><text><textPath href="#ring">360° ✦ SPIN ✦ 360° ✦ SPIN ✦ 360° ✦ SPIN ✦ </textPath></text></svg>
-          <img src="./logo-mark.svg" alt="" />
-        </div>
-      </a>
-    </div>
-  </section>
-
-  <section class="section section--ink">
-    <div class="container">
-      <header class="section__head">
-        <p class="eyebrow" data-i18n="rentEyebrow"></p>
-        <h2 class="section__title" data-i18n="rentTitle"></h2>
-      </header>
-      <ol class="steps">
-        <li><span class="steps__n">01</span><h3 data-i18n="step1t"></h3><p data-i18n="step1d"></p></li>
-        <li><span class="steps__n">02</span><h3 data-i18n="step2t"></h3><p data-i18n="step2d"></p></li>
-        <li><span class="steps__n">03</span><h3 data-i18n="step3t"></h3><p data-i18n="step3d"></p></li>
-        <li><span class="steps__n">04</span><h3 data-i18n="step4t"></h3><p data-i18n="step4d"></p></li>
-      </ol>
-      <div class="center"><a class="btn btn--light" href="./rent.html" data-i18n="rentMore"></a></div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <header class="section__head">
-        <p class="eyebrow" data-i18n="lookEyebrow"></p>
-        <h2 class="section__title" data-i18n="lookTitle"></h2>
-      </header>
-      <div class="strip" id="lookStrip"></div>
-      <div class="center"><a class="btn btn--ghost" href="./lookbook.html" data-i18n="seeLookbook"></a></div>
-    </div>
-  </section>
-
-  <section class="section section--blush">
-    <div class="container cta-band reveal">
-      <img src="./logo-mark.svg" alt="" class="cta-band__mark" />
-      <div class="cta-band__copy">
-        <h2 class="section__title" data-i18n="visitTitle"></h2>
-        <p class="section__lead" data-i18n="address"></p>
-      </div>
-      <div class="hero__cta">
-        <a class="btn btn--primary" data-wa-fitting target="_blank" rel="noopener" data-i18n="bookFitting"></a>
-        <a class="btn btn--ghost" href="./contact.html" data-i18n="navContact"></a>
-      </div>
+      <form class="contact__form" id="contactForm">
+        <h2 class="section__title" data-i18n="formTitle"></h2>
+        <p class="muted" data-i18n="formLead"></p>
+        <p class="label" data-i18n="formTopic"></p>
+        <div class="chips" id="topicChips"></div>
+        <label class="label" for="cName" data-i18n="yourName"></label>
+        <input class="input" id="cName" name="name" required />
+        <label class="label" for="cPhone" data-i18n="yourPhone"></label>
+        <input class="input" id="cPhone" name="phone" type="tel" dir="ltr" required />
+        <label class="label" for="cDate" data-i18n="eventDateOpt"></label>
+        <input class="input" id="cDate" name="date" type="date" />
+        <label class="label" for="cMsg" data-i18n="formMsg"></label>
+        <textarea class="input" id="cMsg" name="message" rows="4" required></textarea>
+        <button class="btn btn--primary btn--block" type="submit">
+          <svg viewBox="0 0 24 24" class="ic"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7L4 20z"/></svg>
+          <span data-i18n="formSend"></span>
+        </button>
+      </form>
     </div>
   </section>
 </main>
